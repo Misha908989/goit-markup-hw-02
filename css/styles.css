@@ -7,15 +7,6 @@ title {
     color: #2e2f42;
 }
 
-h3 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -26,28 +17,20 @@ body {
     background-color: #FFFFFF;
 }
 
-p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 117%;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
-}
 /** Navigation **/
-.nav-header {
+.header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-}
-.headers-change-color {
     color: #2e2f42;
 }
-.menu-item {
+.change {
+    color: #2e2f42;
+}
+.menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,31 +40,31 @@ p {
 .menu-item :hover, .menu-item :focus {
     color: #404bbf;
 }
-.adress-in-header {
+.adress {
     font-style: normal;
 }
-.contact-phone {
+.contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact-phone :hover, .contact-phone :focus {
+.contact :hover, .contact :focus {
     color: #404bbf;
 }
 
 /** Button **/
-.hero-section {
+.button {
     background-color: #2e2f42;
 }
-.main-title {
+.title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.cta-button {
+.button {
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -91,45 +74,49 @@ p {
     color: #ffffff;
     cursor: pointer;
 }
-.cta-button :hover, .cta-button :focus {
-    background-color: #404bbf;
+.button :hover, .button :focus {
+    background-color: #404BBF;
 }
 
 /** features **/
-.feature-heading {
+.featureshead {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.feature-text {
+.featuretext {
     font-size: 16px;
     line-height: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #454455;
+    color: #434455;
 }
 
 /** our team **/
-.team-section {
+.team_section {
     background-color: #f4f4fd;
 }
-.team-heading {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-.team-member {
+.teamhead {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.team-text {
+.headteam {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.member {
+    background-color: #FFFFFF;
+}
+.team_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -137,7 +124,7 @@ p {
 }
 
 /** our portfolio **/
-.portolio-header {
+.portoliohead {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -145,14 +132,14 @@ p {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.port-name {
+.port_name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.port-text {
+.port_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -160,7 +147,7 @@ p {
 }
 
 /** fotter **/
-footer {
+.footer {
     background-color: #2e2f42;
 }
 .footer-logo {
